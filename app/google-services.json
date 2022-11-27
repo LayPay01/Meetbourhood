@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728451695434",
+    "project_id": "meetbourhood",
+    "storage_bucket": "meetbourhood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728451695434:android:b405b556359ab6fa7337b3",
+        "android_client_info": {
+          "package_name": "com.example.meethbourhood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728451695434-bcguraeiis7qoutqmdpe5kj3310hgs40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxi5IKmVB7dCKyLQQFg9SHOMkRwUSCuEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728451695434-bcguraeiis7qoutqmdpe5kj3310hgs40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user" />
+
+        <!--Botón LOGIN-->
+        <Button
+            android:id="@+id/LoginBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/boton_personalizado"
+            android:onClick="inicio2"
+            android:text="@string/LoginBTN"
+            android:textColor="#fff"
+            app:backgroundTint="@null"/>
+
+        <!--Botón Registro-->
+        <Button
+            android:id="@+id/RegistrarBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boton_personalizado"
+            android:onClick="regist"
+            android:text="@string/RegistrarBTN"
+            android:textColor="#fff"
+            app:backgroundTint="@null"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

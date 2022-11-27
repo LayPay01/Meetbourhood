@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Opciones.Mis_Datos">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/MisDatosTXT"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!--IMAGEN DEL USUARIO-->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ImagenDato"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/fotoperfil"/>
+
+        <!--UID-->
+        <TextView
+            android:id="@+id/UidDato"
+            android:text="@string/UidDato"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--NOMBRE-->
+        <TextView
+            android:id="@+id/NombresDato"
+            android:text="@string/NombresDato"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--APELLIDO-->
+        <TextView
+            android:id="@+id/ApellidosDato"
+            android:text="@string/ApellidosDato"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--CORREO-->
+        <TextView
+            android:id="@+id/CorreoDato"
+            android:text="@string/CorreoDato"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--PASSWORD-->
+        <TextView
+            android:id="@+id/PasswordDato"
+            android:text="@string/PasswordDato"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--EDAD-->
+        <TextView
+            android:id="@+id/EdadDato"
+            android:text="@string/EdadDato"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--DIRECCION-->
+        <TextView
+            android:id="@+id/DireccionDato"
+            android:text="@string/DireccionDato"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--TELEFONO-->
+        <TextView
+            android:id="@+id/TelefonoDato"
+            android:text="@string/TelefonoDato"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--BOTON ACTUALIZAR DATOS-->
+        <Button
+            android:text="@string/Actualizar"
+            android:background="@drawable/boton_personalizado"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/actualizar_ico"
+            android:drawablePadding="15dp"
+            android:padding="15dp"
+            android:layout_width="200dp"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content"/>
+
+        <!--BOTON ACTUALIZAR PASS-->
+        <Button
+            android:text="@string/ActualizarPass"
+            android:background="@drawable/boton_personalizado"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/actualizar_pass"
+            android:drawablePadding="15dp"
+            android:padding="15dp"
+            android:layout_width="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

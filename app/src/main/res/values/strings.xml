@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Meethbourhood</string>
+    <string name="desarrolladortxt">Desarrollado por: LayPay</string>
+
+    <string name="LoginBTN">Iniciar Sesión</string>
+    <string name="RegistrarBTN">Registrarme</string>
+
+    <!--Registro-->
+    <string name="RegistroTXT">REGISTRO</string>
+    <string name="Correo">Escriba su correo</string>
+    <string name="Password">Escriba su contraseña</string>
+    <string name="Nombre">Nombre Completo</string>
+    <string name="Apellido">Apellido Completo</string>
+    <string name="Edad">Edad</string>
+    <string name="Telefono">Teléfono</string>
+    <string name="Direccion">Dirección</string>
+    <string name="RegistrarUser">REGISTRARME</string>
+
+    <!--Login-->
+    <string name="CorreoLogin">Correo electrónico</string>
+    <string name="PasswordLogin">Contraseña</string>
+    <string name="INGRESAR">LOGIN</string>
+    <string name="INGRESARGOOGLE">INGRESAR CON GOOGLE</string>
+
+    <!--GIF-->
+    <string name="Noinicio">No se pudo inciar sesión, intente nuevamente (Correo o contraseña incorrectos)</string>
+    <string name="ok_no_inicio">ENTENDIDO</string>
+
+    <!--PERFIL-->
+    <string name="fecha"> -- </string>
+    <string name="uidtxt">Uid: </string>
+    <string name="uidPerfil"> -- </string>
+    <string name="correotxt">Correo: </string>
+    <string name="correoPerfil"> -- </string>
+    <string name="bienvenidotxt">Bienvenido (a): </string>
+    <string name="nombresPerfil"> -- </string>
+    <string name="apellidosPerfil"> -- </string>
+
+    <!--MENÚ-->
+    <string name="MisDatosOpcion">Mis Datos</string>
+    <string name="CrearPublicacionOpcion">Crear Post</string>
+    <string name="PublicacionesOpcion">Publicaciones</string>
+    <string name="UsuarioOpciones">Usuarios</string>
+    <string name="ChatsOpcion">Chats</string>
+    <string name="CerrarSesion">Cerrar Sesión</string>
+
+    <!--QR-->
+    <string name="qr">Lector QR</string>
+    <string name="TextQR"> -- </string>
+    <string name="Generador">Generar QR</string>
+
+    <!--LOCATION-->
+    <string name="location">Ver ubicación actual</string>
+
+    <!--MIS DATOS-->
+    <string name="MisDatosTXT">Mis Datos Personales</string>
+    <string name="UidDatoTXT">UID: </string>
+    <string name="UidDato"> -- </string>
+    <string name="NombresDatoTXT">NOMBRE: </string>
+    <string name="NombresDato"> -- </string>
+    <string name="ApellidosDatoTXT">APELLIDO: </string>
+    <string name="ApellidosDato"> -- </string>
+    <string name="CorreoDatoTXT">CORRREO: </string>
+    <string name="CorreoDato"> -- </string>
+    <string name="PasswordDatoTXT">PASSWORD: </string>
+    <string name="PasswordDato"> -- </string>
+    <string name="EdadDatoTXT">EDAD: </string>
+    <string name="EdadDato"> -- </string>
+    <string name="DireccionDatoTXT">DIRECCIÓN: </string>
+    <string name="DireccionDato"> -- </string>
+    <string name="TelefonoDatoTXT">TELÉFONO: </string>
+    <string name="TelefonoDato"> -- </string>
+    <string name="Actualizar">Actualizar Datos</string>
+    <string name="ActualizarPass">Cambiar Contraseña</string>
+    <string name="CambiarFoto">Cambiar foto</string>
+    <string name="BorraFoto">Borrar Foto</string>
+
+    <!--CAMBIO DE PASS-->
+    <string name="MisCredencialesTXT">Mis Credenciales</string>
+    <string name="CorreoActualTXT">Correo Actual: </string>
+    <string name="CorreoActual"> -- </string>
+    <string name="PassActualTXT">Contraseña Actual: </string>
+    <string name="PassActual"> -- </string>
+    <string name="ActualPassET"> Contraseña Actual</string>
+    <string name="NuevoPassET"> Nueva Contraseña</string>
+    <string name="CAMBIARPASSBTN">CAMBIAR CONTRASEÑA</string>
+    <string name="NotaTXT">Nota: Si cambia la contraseña, su cuenta se cerrará automáticamente.</string>
+
+</resources>
